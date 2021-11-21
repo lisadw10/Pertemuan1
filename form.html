@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulir</title>
+    </head>
+
+    <body>
+        <h1>Formulir Pendaftaran Anggota KLOSO</h1>
+        <form>
+            <label for="nama">Nama Lengkap :</label><br>
+            <input type="text" id="nama" name="nama" placeholder="Nama Lengkap Anda">
+            <br><br>
+
+            <label for="email">Angkatan :</label><br>
+            <input type="email" id="email" name="email" placeholder="Angkatan 20..">
+            <br><br>
+            
+            <label for="gender">Jurusan:</label><br>
+            <input type="radio" name="gender" value="L">Teknik Informatika<br>
+            <input type="radio" name="gender" value="P">Manajemen Informatika<br>
+            <br>
+
+            <label for="gender">Jenis kelamin:</label><br>
+            <input type="radio" name="gender" value="L">Laki-laki<br>
+            <input type="radio" name="gender" value="P">Perempuan<br>
+            <br>
+
+            <label for="alasan">Alasan Mengikuti UKM KLOSO :</label><br>
+            <textarea name="alasan" id="" cols="30" rows="10" placeholder="Isikan Disini..."></textarea>
+            <br><br>
+
+            <label for="foto">Upload Foto</label><br>
+            <input type="file" id="foto" name="foto">
+            <br><br>
+
+            <input type="submit" name="submit" value="Daftar">
+        </form>
+    </body>
+</html>
